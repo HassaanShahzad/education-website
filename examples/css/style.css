@@ -425,11 +425,10 @@ background-color: #fff;
   width: auto;
   height: 200px;
   position: absolute;
-  color: white;
+  color: black;
   font-size: 15px;
   font-weight: bold;
 
-  background-color: #2a2a2e;
   z-index: 10;
  
   overflow: auto;
