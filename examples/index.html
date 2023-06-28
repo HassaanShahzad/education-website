@@ -2,330 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DroppLabs</title>
     <style>
-
-* {
-  font-family: Verdana (sans-serif) ;
-}
-
       video{
   display: none;
 }
-
-@media (min-width: 320px) and (max-width: 400px){
-  .abc10 {
-
-border-radius: 40px  !important;
-
-background-color: black;
-opacity: 0.8;
-color: wheat;
-padding-left: 10px;
-width: 250px;
-height: 50px;
-overflow: hidden;
-position: relative !important;
-left: 5px !important;
-top: 33px !important;
-
-      } 
-
-      .abc12 {
-        float: right;
-               
-    padding-left: 10px;
-    position: relative !important;
-    left: 27px !important;
-    bottom: 10px !important;
-              }
-              .abc15 {
-                position: relative !important;
-                top: 0px !important;
-              }
-}
-
-@media (min-width: 400px) and (max-width: 900px){
-  .abc10 {
-
-border-radius: 40px  !important;
-
-background-color: black;
-opacity: 0.8;
-color: wheat;
-padding-left: 10px;
-width: 250px;
-height: 50px;
-overflow: hidden;
-position: relative !important;
-left: 5px !important;
-top: 33px !important;
-
-
-      } 
-      
-      .abc12 {
-        float: right;
-               
-    padding-left: 10px;
-    position: relative !important;
-    left: 27px !important;
-    bottom: 10px !important;
-    
-              }
-              .abc15 {
-                position: relative !important;
-                top: 0px !important;
-              }
-	}
-	
-@media (min-width:320px)  { 
-
-.abc10 {
-
-border-radius: 40px  !important;
-
-background-color: black;
-opacity: 0.8;
-color: wheat;
-padding-left: 10px;
-width: 250px;
-height: 50px;
-overflow: hidden;
-
-
-      } }
-@media (min-width:480px)  { 
-  
-.abc10 {
-
-border-radius: 40px  !important;
-
-background-color: black;
-opacity: 0.8;
-color: wheat;
-padding-left: 10px;
-width: 250px;
-height: 50px;
-overflow: hidden;
-
-
-      }
-}
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
-/Edit: Refined to work better with 960 grids:
-
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
-
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 5 / 1 / 6 / 2; }
-.div2 { grid-area: 5 / 2 / 6 / 3 !important; }
-.div3 { grid-area: 5 / 3 / 6 / 4; }
-.div4 { grid-area: 5 / 4 / 6 / 5; }
-.div5 { grid-area: 5 / 5 / 6 / 6; }
-
-.parent {
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-.abc16 { grid-area: 1 / 3 / 2 / 4; }
-.abc1 {
-z-index: -1;
-    border-radius: 2px  !important;
-
-    background-color: black;
-    opacity: 0.8;
-   color: wheat;
-   width: 299px;
-height: 50px;
-overflow: hidden;
-   
-}
-.abc2 {
-    border: 0px;
-  background-color: black;
-    opacity: 0.8;
-   color: wheat;
-   z-index: -1;
-    border-radius: 2px  !important;
-    padding: 20px;
-    
-    
-    
-}
-
-.abc3 {
-  float: left;
-  width: 20;
-  height: 39px;
-  padding-top: 10px;
-  
-}
-.abc4 {
-  float: right;
-  width: 20;
-  height: 39px;
-  padding-top: 10px;
-}
-
-.abc6 {
-    z-index: -1;
-        border-radius: 25px  !important;
-    border: 0px;
-        background-color: black;
-        opacity: 0.8;
-     margin-bottom: 20px;
-     width: 150px;
-    height: 50px;
-    overflow: hidden;
-       
-    }
-    .abc7 {
-        z-index: -1;
-            border-radius: 250px  !important;
-        border: 0px;
-            background-color: black;
-            opacity: 0.8;
-         margin-bottom: 20px;
-           width: 150px;
-        height: 50px;
-        overflow: hidden;
-           
-        }
-        .abc8 {
-            color: white;
-            float: right;
-            position: relative;
-            bottom: 15px;
-            right: 9px;
-        }
-        .abc9 {
-          float: left;
-          position: relative;
-          right: 10px;
-        }
-        .abc10 {
-
-border-radius: 40px  !important;
-
-background-color: black;
-opacity: 0.8;
-color: wheat;
-padding-left: 10px;
-width: 250px;
-height: 50px;
-overflow: hidden;
-
-
-      }
-      .abc11 {
-        height:30px;
-        color: white;
-        position: relative;
-        top: 10px;
-        left: 5px;
-        padding-left: 20px;
-      }
-      .height1 {
-        height: 140px;
-      }
-
-      .abc12 {
-        float: right;
-               
-    padding-left: 10px;
-    
-              }
-              .abc13 {
-                height:40px;
-                color: white;
-             float: right;
-             padding-right: 20px;
-               
-              }
-              .width {
-                
-              }
-              .abc15 {
-                position: relative;
-                top: 100px;
-              }
-.abc16 {
- 
-}
-.abc18 {
- position: relative;
- top: 450px; 
- left: 40px;
-}
-.abc20 {
-  background-color: white;
-  border-radius: 5px;
-  width: 250px;
-  height: 50px;
-  position: relative;
-  left: 40px;
-  color: black;
-  position: relative;
-  bottom: 20px;
-  padding: 10px;
-}
-#messages {
-  background-color: white;
-  border-radius: 5px;
-  width: 250px;
-  height: 50px;
-position: relative;
-left: 35px;
-  color: black;
-
-  padding: 10px;
-  z-index: 1;
-}
-.abc22 {
-
-
-float: right;
-}
-.abc23 {
-  position: relative;
-top: 29px;
-}
-.abc21 {
-  border: 0px;
-  width: 175px;
-
-}
-.abc24 {
-color: black;
-}
-input {
-  outline: none;
-  overflow: hidden;
-}
-    </style>npm
+    </style>
     <meta name="description" content="DroppLabs-Meeting Room" />
 
 
@@ -342,7 +25,7 @@ input {
     <!-- <script src="https://rawgit.com/bryik/aframe-bmfont-text-component/master/dist/aframe-bmfont-text-component.min.js"></script>
     <script src="https://unpkg.com/aframe-simple-sun-sky@^1.2.3/simple-sun-sky.js"></script> -->
     <script type="module" src="./aframee.js"></script>
-   
+    <link rel="stylesheet" href="css/style.css">
     
 
 
@@ -418,30 +101,109 @@ input {
 
 
 
+      //       const myInput = document.getElementById('ourInput')
+      // const form = document.getElementById('form')
 
-
-            const btn = document.querySelector("button");
-      const textfield = document.querySelector("input");
-   
-      const log = document.querySelector("#messages")
+            const btn = document.querySelector("#form");
+      const textfield = document.querySelector("#ourInput");
+   const username = document.querySelector('#user-name')
+      const log = document.querySelector("#user-message")
       const planeValue = document.querySelector('a-text.nametag')
       console.log(planeValue)
+      const sendbtn = document.getElementById('submit')
 
 
       
-      NAF.connection.subscribeToDataChannel("chat", (senderId, dataType, data, targetId) => {
-        
-        console.log("msg", data, "from", senderId) 
-      messages.innerHTML += data.username + ": " + data.txt + '<br>'
-        
-      })
-   btn.addEventListener("click", evt => {
-        messages.innerHTML += this.data.name + ": " + textfield.value + '<br>'
 
-        // NAF.connection.broadcastData("chat", {txt: textfield.value}) 
-        NAF.connection.broadcastData("chat", {txt: textfield.value, username: document.getElementById('username-overlay').value})
-      })
+      function scrollChatToBottom() {
+  const chatHistory = document.querySelector(".chat-history");
+  chatHistory.scrollTop = chatHistory.scrollHeight + 11;
+}
 
+      // HTML elements
+const chatHistory = document.querySelector(".chat-history");
+
+// NAF subscription
+NAF.connection.subscribeToDataChannel("chat", (senderId, dataType, data, targetId) => {
+  console.log("msg", data, "from", senderId);
+
+  // Create new elements
+  const userNameElement = document.createElement("h5");
+  const messageElement = document.createElement("p");
+  userNameElement.style.textAlign = 'end'
+  userNameElement.style.color = "red"
+  messageElement.style.textAlign = 'end'
+  const hrElement = document.createElement("hr");
+
+  // Set content and attributes
+  userNameElement.textContent = data.username;
+  messageElement.textContent = data.txt;
+
+  // Append elements to chat-history
+  chatHistory.appendChild(userNameElement);
+  chatHistory.appendChild(messageElement);
+  chatHistory.appendChild(hrElement);
+
+  scrollChatToBottom()
+
+});
+
+// Event listener
+btn.addEventListener("submit", (evt) => {
+  evt.preventDefault();
+
+  // Create new elements
+  const userNameElement = document.createElement("h5");
+  const messageElement = document.createElement("p");
+  const hrElement = document.createElement("hr");
+
+
+  scrollChatToBottom()
+  // Set content and attributes
+  userNameElement.textContent = this.data.name;
+  messageElement.textContent = textfield.value;
+
+  // Append elements to chat-history
+  chatHistory.appendChild(userNameElement);
+  chatHistory.appendChild(messageElement);
+  chatHistory.appendChild(hrElement);
+
+textfield.value = ""
+  // Broadcast data
+  NAF.connection.broadcastData("chat", {
+    txt: textfield.value,
+    username: document.getElementById("username-overlay").value,
+  });
+});
+
+
+sendbtn.addEventListener('click' , (e)=>{
+e.preventDefault()
+
+  // Create new elements
+  const userNameElement = document.createElement("h5");
+  const messageElement = document.createElement("p");
+  const hrElement = document.createElement("hr");
+
+  // Set content and attributes
+  userNameElement.textContent = this.data.name;
+  messageElement.textContent = textfield.value;
+
+
+  scrollChatToBottom()
+  // Append elements to chat-history
+  chatHistory.appendChild(userNameElement);
+  chatHistory.appendChild(messageElement);
+  chatHistory.appendChild(hrElement);
+
+  // Broadcast data
+  NAF.connection.broadcastData("chat", {
+    txt: textfield.value,
+    username: document.getElementById("username-overlay").value,
+  });
+})
+
+      
 
 
 
@@ -484,18 +246,25 @@ init : function () {
 
 
 
-  var checkbox = document.getElementById('show-screens-checkbox');
-  console.log(checkbox)
-  
-  checkbox.addEventListener('change', function() {
-    if (checkbox.checked) {
-     
-      el.setAttribute('visible' , "true")
-    } else {
-     
-      el.setAttribute('visible' , "false")
-    }
-  });
+  var checkbox = document.getElementById('share-btn');
+console.log(checkbox);
+
+var isChecked = false; // Variable to track checkbox state
+
+checkbox.addEventListener('click', function() {
+  if (!isChecked) {
+    // First click on the checkbox
+    checkbox.style.background = 'white'
+    isChecked = true;
+    el.setAttribute('visible', 'true');
+  } else {
+    // Second click on the checkbox
+    checkbox.style.background = 'rgba(0,0,0,0.6)'
+    isChecked = false;
+    el.setAttribute('visible', 'false');
+  }
+});
+
 
 
 
@@ -525,50 +294,80 @@ init : function () {
   </head>
   <body>
 
-
-
-   <div class="abc18">
-    <div id="chatUI">
-    
-      <!-- <div class="abc23">
-        <img src="img/avatar-with-online-indicator.png" alt="">
-       </div>
-       <div class="abc20">
-        <h4 class="abc24">Jav <small>Enjeneering</small> </h4>
-          <input type="text" class="abc21" name="" id=""><small class="abc22">10:29PM</small>
-        
-       
-    
-       </div> -->
-      <div class="abc1">
-     
-        <input type="text" class="abc2" name="" id="" placeholder="Type Message">  
-        <img   class="abc3" id="abcd3" src="img/Expand_down_double@2x.png" alt="">
-            <img  class="abc4" src="img/happy_light@5x.png" alt="">
-            <img  class="abc4" src="img/Send_light@5x.png" alt="">
-    
-      </div>
-      
-      <button>
+   
+    <!-- <div id="chatUI">
+      <input type="text">
+      <button id="btn">
         SEND
       </button>
-      <div class="abc23">
-        <img src="img/avatar-with-online-indicator.png" alt="">
-       </div>
       <div id="messages">
-       
-        <h4 class="abc24">Jav <small>Enjeneering</small> </h4>
-        <small class="abc22">10:29PM</small>
-        <!-- <div  class="abc20">
-          <h4  class="abc24">Jav <small>Enjeneering</small> </h4>
-            <input  type="text" class="abc21" name="" id=""><small class="abc22">10:29PM</small>
-          
-         
-      
-         </div> -->
+        
       </div>
     </div>
-   </div>
+ -->
+
+
+
+
+ <div class="">
+    
+
+  <div id="live-chat" class="abc1">
+		
+    <header class="clearfix">
+      
+      <a href="#" class="chat-close" id="abcd"><img id="abcd"src="./assets/img/Caret_Circle_Right.svg" alt=""></a>
+
+    <img src="./assets/img/logo.png" width="50px" alt="">
+    <h4>Chat Box</h4>
+  
+
+      <span class="chat-message-counter">3</span>
+
+    </header>
+
+    <div class="chat" id="abcd1">
+      
+      <div class="chat-history">
+        
+  
+          
+
+
+      
+
+      </div> <!-- end chat-history -->
+
+      
+
+      <form id="form" action="" >
+
+        <fieldset id="inp">
+          
+          <input id="ourInput" type="text" placeholder="Enter You Text" autofocus>
+          <input type="hidden">
+          <button id="submit" type="submit"><img src="./assets/img/Send_light.svg" alt=""></button>
+        </fieldset>
+
+      </form>
+
+    </div> <!-- end chat -->
+
+  </div> <!-- end live-chat -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <button
@@ -589,7 +388,9 @@ init : function () {
   <input
     id="username-overlay"
     placeholder="Write Your Name"
-    oninput="document.getElementById('player').setAttribute('player-info', 'name', this.value)"
+    oninput="document.getElementById('player').setAttribute('player-info', 'name', this.value)
+    
+    "
   /> 
   <div class="btn">Done</div>
 </div>
@@ -628,9 +429,9 @@ init : function () {
         </div>
     </div>
 </div>
-<button type="button" class="menu_btn" title="Click to show guides">
+<!-- <button type="button" class="menu_btn" title="Click to show guides">
     <img src="assets/img/menu.svg" alt="">
-</button>
+</button> -->
 <div class="intro mobile" id="top_layer_mobile">
     <div class="intro_mobile_wrapper step-1">
         <section class="intro_mobile_section">
@@ -1030,74 +831,22 @@ physicallyCorrectLights : true;
       <a-entity light="type:ambient;intensity:0.7"></a-entity>
     </a-scene>
 
-    <div class="actions">
-   
-       <div class="parent">
-        <div class="div1">
-            
-     <div id="abcd4">
-    
-      <!-- <div class="abc15">
-        <img  class="abc3 abc9" src="img/text-C.png" alt="">
-        <div class="abc6">
-    
-          <p class="abc8"> 10:59 PM</p>
-          <input type="text" class="abc7" name="" id="">
-        </div>
-    
-        <img  class="abc3 abc9" src="img/text-D.png" alt="">
-        <div class="abc6">
-    
-          <p class="abc8"> 10:59 PM</p>
-          <input type="text" class="abc7" name="" id="">
-        </div> -->
-      
-    
-        <!-- <div class="abc1">
-     
-          <input type="text" class="abc2" name="" id="">  
-          <img   class="abc3" id="abcd3" src="img/Expand_down_double@2x.png" alt="">
-              <img  class="abc4" src="img/happy_light@5x.png" alt="">
-              <img  class="abc4" src="img/Send_light@5x.png" alt="">
-      
-        </div> -->
-      </div>
-      </div>
-    
-  <div class="div2">
-     </div>
-  <div class="div3">
+   <div class="abc3">
+    <button id="menu-btn" type="button" class="button menu-btn  "><img class="" id="abcd2"  src="./assets/img/Caret_Circle_Right.svg" alt="" ></button>
 
-    <div class="abc10" id="abcd1">
-      <img class="abc11" src="img/right-arrow.png" alt="">
-      <img class="abc11" src="img/Chat@3x.png" alt="">
-      <img class="abc11" src="img/three-icon.png" alt="">
-      <img class="abc11" src="img/mic.png" alt="">
-    </div>   
-  
-  </div>
-  <div class="div4"> </div>
-  <div class="div5">
-   
-    <div class="abc12" id="abcd">
-  
-      <img class="abc13" src="img/right-arrow.png" alt="">
-    </div> 
-    
-  </div>
-        </div> 
- <!-- <div class="parent">
-  <div class="abc16">
-    <button id="mic-btn" type="button" class="button">Mute Mic</button>
-    <button id="screen-btn"  type="button" class="button">Share screen</button>
-    <label for="show-screens-checkbox">
-      <input id="show-screens-checkbox" type="checkbox">
-      Show Screens
-    </label> 
    </div>
- </div>
+    <div class="actions abc2" id="abcd3">
+      <button id="collapse-btn" type="button" class="" id="abcd2"><img id="abcd2" src="./assets/img/Caret_Circle_Right.svg" alt="" width="40px"></button>
+      <button id="mic-btn" type="button" class="button"><img src="./assets/img/mic.svg" alt="" width="30px"></button>
+      <button id="screen-btn"  type="button" class="button"><img src="./assets/img/screen-options.png" alt="" width="30px"></button>
+      <button id="chat-btn"  type="button" class="button"><img src="./assets/img/Chat_alt_3_light.svg" alt="" width="30px"></button>
+      <button id="share-btn"  type="button" class="button"><img src="./assets/img/pc-administrator.png" alt="" width="30px"></button>
+      <!-- <label for="show-screens-checkbox">
+        <input id="show-screens-checkbox" type="checkbox">
+        Show Screens
+      </label> -->
     </div>
-    
+
 
     <script>
       // Mic status
@@ -1115,7 +864,7 @@ physicallyCorrectLights : true;
         micBtnEle.addEventListener('click', function () {
           NAF.connection.adapter.enableMicrophone(!micEnabled);
           micEnabled = !micEnabled;
-          micBtnEle.textContent = micEnabled ? 'Mute Mic' : 'Unmute Mic';
+          micBtnEle.style.backgroundColor = micEnabled ? 'white' : 'rgba(0, 0, 0, 0.6)';
         });
 
 
@@ -1152,13 +901,13 @@ physicallyCorrectLights : true;
           if (screenEnabled) {
             NAF.connection.adapter.removeLocalMediaStream('screen');
             screenEnabled = false;
-            screenBtnEle.textContent = 'Share screen';
+            screenBtnEle.style.backgroundColor = 'white';
            
           } else {
             navigator.mediaDevices.getDisplayMedia().then((stream) => {
               NAF.connection.adapter.addLocalMediaStream(stream, 'screen');
               screenEnabled = true;
-              screenBtnEle.textContent = 'Stop Screen';
+              screenBtnEle.style.backgroundColor = 'rgba(0, 0, 0, 0.6)';
        
             });
           }
@@ -1187,6 +936,23 @@ physicallyCorrectLights : true;
    
     </script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+       
+$('#abcd').click(function(){
+    $('#abcd1').slideToggle()
+    
+})
+
+$('#abcd2').click(function(){
+    $('#abcd3').slideToggle()
+    
+})
+
+    })
+</script>
 
   </body>
 </html>

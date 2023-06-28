@@ -1,5 +1,6 @@
 const closeBtn = document.querySelectorAll(".intro_close_btn"),
-    menuBtn = document.querySelector(".menu_btn"),
+    menuBtn = document.querySelector("#menu-btn"),
+
     continueDesktopBtn = document.querySelector(".intro.desktop .continue_btn"),
     intro = document.querySelector(".intro.desktop"),
     introMobile = document.querySelector(".intro.mobile"),
@@ -8,7 +9,9 @@ const closeBtn = document.querySelectorAll(".intro_close_btn"),
     continueMobileBtn = document.querySelector(".intro.mobile .continue_btn"),
     scene = document.querySelector("a-scene"),
     introAction = localStorage.getItem("intro") === "true";
+    const screenBtnEle = document.getElementById('screen-btn');
 
+    console.log(menuBtn)
 if (false) {
     hideIntro();
     intro.style.visibility = "hidden";
@@ -26,6 +29,8 @@ function introResize() {
         showIntro();
     } else {
         intro.style.visibility = "hidden";
+        screenBtnEle.style.display="none"
+        menuBtn.style.display = 'none'
         hideIntro();
     }
 }
@@ -87,3 +92,17 @@ displayBtn.addEventListener("click"  , ()=>{
 
 
 
+
+
+
+let rotation = 0;
+
+menuBtn.addEventListener('click', () => {
+  rotation -= 180;
+  menuBtn.style.transform = `translate(-50%, -50%) rotate(${rotation}deg)`;
+});
+
+continueDesktopBtn.addEventListener('click', () => {
+  rotation = 0;
+  menuBtn.style.transform = `translate(-50%, -50%) rotate(${rotation}deg)`;
+});

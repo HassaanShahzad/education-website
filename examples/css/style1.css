@@ -9,7 +9,7 @@
     width: max-content;
 }
 body {
-    /* color-scheme: dark; */
+    color-scheme: dark;
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
 }
